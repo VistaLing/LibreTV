@@ -1,8 +1,8 @@
 version: '3'
 services:
-  libretv:
-    image: bestzwei/libretv:latest
-    container_name: libretv
+  SCUTV:
+    image: bestzwei/SCUTV:latest
+    container_name: SCUTV
     ports:
       - "8899:80"
     environment:
